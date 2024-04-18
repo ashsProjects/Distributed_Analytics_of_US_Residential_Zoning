@@ -87,7 +87,7 @@ MENTAL HEALTH
 - https://www.countyhealthrankings.org/health-data/health-outcomes/quality-of-life
 
 HAS COUNTY LEVEL GRAPHS FOR QUALITY OF LIFE
-- https://www.miqols.org/toolbox/usqoli.html
+- (https://www.miqols.org/toolbox/usqoli.html)[https://www.miqols.org/toolbox/usqoli.html]
 
 DATASET FOR COUNTY LEVEL QUALITY OF LIFE
 - https://www.kaggle.com/datasets/zacvaughan/cityzipcountyfips-quality-of-life
