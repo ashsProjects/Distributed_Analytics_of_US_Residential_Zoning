@@ -12,26 +12,85 @@ insert_here
 
 ### Data Directory Structure
 ```bash
-$ hadoop fs -ls /data/<place>/<dataset>
+$ hadoop fs -ls /zoning/<place>/<dataset>
 ```
 
 ```
-|--data  
-    |--ohio  
-        |--[]  
-        |--[]  
-    |--houston    
-        |--[]   
-        |--[]  
-    |--denver    
-        |--[]   
-        |--[]  
-    |--jefferson    
-        |--[]   
-        |--[]  
-    |--sonoma    
-        |--[]   
-        |--[]  
+|--zoning  
+    |--Ohio  
+        |--mental_health[]  
+        |--occupancy[]  
+        |--occupancy_meta[]  
+        |--ohio-parcels[]  
+        |--poverty[]  
+        |--poverty_meta[]  
+        |--structure[]  
+        |--structure_meta[]  
+        |--transportation_means[]  
+        |--transportation_means_meta[]  
+        |--transportation_type[]  
+        |--transportation_type_means[]   
+    |--Houston    
+        |--houston-parcels[]
+        |--mental_health[]  
+        |--occupancy[]  
+        |--occupancy_meta[]    
+        |--poverty[]  
+        |--poverty_meta[]  
+        |--structure[]  
+        |--structure_meta[]  
+        |--transportation_means[]  
+        |--transportation_means_meta[]  
+        |--transportation_type[]  
+        |--transportation_type_means[]    
+    |--Colorado    
+        |--denver-parcels[]
+        |--jefferson-parcels[]
+        |--mental_health[]  
+        |--occupancy[]  
+        |--occupancy_meta[]    
+        |--poverty[]  
+        |--poverty_meta[]  
+        |--structure[]  
+        |--structure_meta[]  
+        |--transportation_means[]  
+        |--transportation_means_meta[]  
+        |--transportation_type[]  
+        |--transportation_type_means[]
+        |--weld-parcels[]   
+    |--Placer    
+        |--mental_health[]  
+        |--occupancy[]  
+        |--occupancy_meta[]  
+        |--placer-parcels[]  
+        |--poverty[]  
+        |--poverty_meta[]  
+        |--structure[]  
+        |--structure_meta[]  
+        |--transportation_means[]  
+        |--transportation_means_meta[]  
+        |--transportation_type[]  
+        |--transportation_type_means[]   
+    |--QOL[] 
+```
+
+### Data Sources
+```
+CENSUS DATA
+- B08006 Sex of Workers by Means of Transportation to Work (Employment -> Commuting)
+- S0802 Means of Transportation to Work by Selected Characteristics (Employment -> Commuting)
+- B11011 Household Type by Units in Structure (Housing -> Housing, 3)
+- H1 OCCUPANCY STATUS (Housing, Housing, 1)
+- S1702 Poverty Status in the Past 12 Months of Families (Income and Poverty -> Income and Poverty)
+
+MENTAL HEALTH
+- https://www.countyhealthrankings.org/health-data/health-outcomes/quality-of-life
+
+HAS COUNTY LEVEL GRAPHS FOR QUALITY OF LIFE
+- https://www.miqols.org/toolbox/usqoli.html
+
+DATASET FOR COUNTY LEVEL QUALITY OF LIFE
+- https://www.kaggle.com/datasets/zacvaughan/cityzipcountyfips-quality-of-life
 ```
 
 To start DFS:
