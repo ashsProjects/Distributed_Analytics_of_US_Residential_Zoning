@@ -5,10 +5,12 @@
 1. What are the different types of zoning?
 2. How many parcels are identified as a residential type? This includes SF, Condos, MF, Apartments, etc.
 3. How many Single Family homes are there and what is the percentage of SF to the total number of residential zoning?
-4. 
-
-### Data Repository
-insert_here
+4. What is the average commute time for the county?
+5. What means of transport are used the most commonly? Describe averages.
+6. What is the level of poverty in that county?
+7. What is the average rent prices for different residential buildings?
+8. What is the standard if living (income/wage/price of goods)?
+9. What is the crime rate of the county?
 
 ### Data Directory Structure
 ```bash
@@ -18,60 +20,60 @@ $ hadoop fs -ls /zoning/<place>/<dataset>
 ```
 |--zoning  
     |--Ohio  
-        |--mental_health[]  
-        |--occupancy[]  
-        |--occupancy_meta[]  
-        |--ohio-parcels[]  
-        |--poverty[]  
-        |--poverty_meta[]  
-        |--structure[]  
-        |--structure_meta[]  
-        |--transportation_means[]  
-        |--transportation_means_meta[]  
-        |--transportation_type[]  
-        |--transportation_type_means[]   
+        |--mental_health    
+        |--occupancy  
+        |--occupancy_meta  
+        |--ohio-parcels  
+        |--poverty  
+        |--poverty_meta  
+        |--structure  
+        |--structure_meta  
+        |--transportation_means  
+        |--transportation_means_meta  
+        |--transportation_type  
+        |--transportation_type_means  
     |--Houston    
-        |--houston-parcels[]
-        |--mental_health[]  
-        |--occupancy[]  
-        |--occupancy_meta[]    
-        |--poverty[]  
-        |--poverty_meta[]  
-        |--structure[]  
-        |--structure_meta[]  
-        |--transportation_means[]  
-        |--transportation_means_meta[]  
-        |--transportation_type[]  
-        |--transportation_type_means[]    
-    |--Colorado    
-        |--denver-parcels[]
-        |--jefferson-parcels[]
-        |--mental_health[]  
-        |--occupancy[]  
-        |--occupancy_meta[]    
-        |--poverty[]  
-        |--poverty_meta[]  
-        |--structure[]  
-        |--structure_meta[]  
-        |--transportation_means[]  
-        |--transportation_means_meta[]  
-        |--transportation_type[]  
-        |--transportation_type_means[]
-        |--weld-parcels[]   
-    |--Placer    
-        |--mental_health[]  
-        |--occupancy[]  
-        |--occupancy_meta[]  
-        |--placer-parcels[]  
-        |--poverty[]  
-        |--poverty_meta[]  
-        |--structure[]  
-        |--structure_meta[]  
-        |--transportation_means[]  
-        |--transportation_means_meta[]  
-        |--transportation_type[]  
-        |--transportation_type_means[]   
-    |--QOL[] 
+        |--houston-parcels   
+        |--mental_health   
+        |--occupancy   
+        |--occupancy_meta   
+        |--poverty   
+        |--poverty_meta   
+        |--structure   
+        |--structure_meta   
+        |--transportation_means   
+        |--transportation_means_meta   
+        |--transportation_type   
+        |--transportation_type_means    
+    |--Colorado       
+        |--denver-parcels   
+        |--jefferson-parcels   
+        |--mental_health    
+        |--occupancy    
+        |--occupancy_meta     
+        |--poverty   
+        |--poverty_meta   
+        |--structure     
+        |--structure_meta    
+        |--transportation_means   
+        |--transportation_means_meta     
+        |--transportation_type   
+        |--transportation_type_means   
+        |--weld-parcels     
+    |--Placer       
+        |--mental_health   
+        |--occupancy    
+        |--occupancy_meta    
+        |--placer-parcels    
+        |--poverty   
+        |--poverty_meta    
+        |--structure   
+        |--structure_meta   
+        |--transportation_means   
+        |--transportation_means_meta   
+        |--transportation_type    
+        |--transportation_type_means     
+    |--QOL
 ```
 
 ### Data Sources
@@ -87,7 +89,7 @@ MENTAL HEALTH
 - https://www.countyhealthrankings.org/health-data/health-outcomes/quality-of-life
 
 HAS COUNTY LEVEL GRAPHS FOR QUALITY OF LIFE
-- [https://www.miqols.org/toolbox/usqoli.html](https://www.miqols.org/toolbox/usqoli.html)
+- https://www.miqols.org/toolbox/usqoli.html
 
 DATASET FOR COUNTY LEVEL QUALITY OF LIFE
 - https://www.kaggle.com/datasets/zacvaughan/cityzipcountyfips-quality-of-life
