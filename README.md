@@ -25,9 +25,7 @@ $ hadoop fs -ls /zoning/<place>/<dataset>
         |--occupancy_meta  
         |--ohio-parcels  
         |--poverty  
-        |--poverty_meta  
-        |--structure  
-        |--structure_meta  
+        |--poverty_meta   
         |--transportation_means  
         |--transportation_means_meta  
         |--transportation_type  
@@ -38,9 +36,7 @@ $ hadoop fs -ls /zoning/<place>/<dataset>
         |--occupancy   
         |--occupancy_meta   
         |--poverty   
-        |--poverty_meta   
-        |--structure   
-        |--structure_meta   
+        |--poverty_meta     
         |--transportation_means   
         |--transportation_means_meta   
         |--transportation_type   
@@ -52,9 +48,7 @@ $ hadoop fs -ls /zoning/<place>/<dataset>
         |--occupancy    
         |--occupancy_meta     
         |--poverty   
-        |--poverty_meta   
-        |--structure     
-        |--structure_meta    
+        |--poverty_meta      
         |--transportation_means   
         |--transportation_means_meta     
         |--transportation_type   
@@ -66,13 +60,27 @@ $ hadoop fs -ls /zoning/<place>/<dataset>
         |--occupancy_meta    
         |--placer-parcels    
         |--poverty   
-        |--poverty_meta    
-        |--structure   
-        |--structure_meta   
+        |--poverty_meta     
         |--transportation_means   
         |--transportation_means_meta   
         |--transportation_type    
-        |--transportation_type_means     
+        |--transportation_type_means  
+    |--Dallas
+        |--dallas-parcels 
+        |--mental_health   
+        |--occupancy         
+        |--poverty     
+        |--structure    
+        |--transportation_means     
+        |--transportation_type    
+    |--Detroit
+        |--detroit-parcels   
+        |--mental_health   
+        |--occupancy         
+        |--poverty    
+        |--structure   
+        |--transportation_means   
+        |--transportation_type      
     |--QOL
 ```
 
