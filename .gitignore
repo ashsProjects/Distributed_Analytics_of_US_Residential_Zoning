@@ -2,3 +2,8 @@
 .vscode
 bin
 build
+_SUCCESS
+._SUCCESS.crc
+.part-00000.crc
+# too big
+outputs/ohio/allResidentialTypesAllCounties

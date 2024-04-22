@@ -1,0 +1,4 @@
+Count of all types of Residential in Houston
+single-family residential: 1138210
+multi-family residential: 70556
+Total: 1208766

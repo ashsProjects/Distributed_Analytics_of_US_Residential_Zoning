@@ -9,16 +9,17 @@ repositories {
 
 dependencies {
     implementation 'org.apache.spark:spark-core_2.13:3.5.0'
+    implementation 'org.apache.spark:spark-sql_2.13:3.5.0'
 }
 
 jar {
     manifest {
-        attributes 'Main-Class': 'Main'
+        attributes 'Main-Class': 'Colorado'
     }
 }
 
 application {
-    mainClass = 'Main'
+    mainClass = 'Colorado'
 }
 
 run {

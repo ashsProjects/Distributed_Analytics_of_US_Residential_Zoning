@@ -1,0 +1,159 @@
+100: 1
+assisted living residence: 41
+45: 1
+vacant industrial: 1995
+tool and die shop: 75
+120: 2
+office bldg-3 stories or more: 113
+bowling center w/resturant: 2
+vacant residential: 77158
+51: 1
+school: 242
+garage - residential stand-alone: 956
+laboratory/research & development: 16
+office bldg--3 stories or less: 576
+nursing home: 28
+vacant commercial: 8289
+garage-parking-underground: 4
+0.00121069125688368: 1
+medical dispensaries: 4
+mixed use-condo: 8
+public lodging house-rooming house: 16
+40: 4
+ice cream/ refreshment: 2
+motel w/restaurant: 3
+supermarket: 80
+236: 1
+personal property: 3
+heavy manufacturing: 30
+boat house: 1
+287: 1
+gas station w/conv store-resturant: 58
+garage mini-lube: 6
+apt-flat garden type: 1754
+ 15010572.: 1
+55: 2
+26: 1
+cannabis - grower/processor: 36
+50: 1
+casino: 25
+37: 1
+warehouse storage: 550
+drug store: 34
+railroad : 88
+0.126: 1
+46: 1
+0.118: 1
+half duplex: 1921
+24: 1
+motel: 33
+0.02: 1
+improved no bldg: 808
+store-party/ neighborhood: 45
+35: 9
+dormitory: 9
+dry cleaner: 74
+parking lot-paved: 3520
+commercial hall: 53
+garage-parking-above ground: 90
+cellular tower: 4
+ 01000677.002l: 1
+service and repair station: 884
+ 09004424.017: 57
+laundromat: 35
+null: 34785
+48: 1
+shed: 55
+0.078: 1
+restaurant: 547
+hotel-apt: 5
+auto sale w/service: 170
+private club: 109
+148: 1
+8750: 1
+cooperative: 1
+0.207: 1
+barber, beauty shop: 227
+post office: 33
+mixed use-office: 87
+major office bldg 3 stories or more w/pkngs: 7
+hospital: 17
+printing and publishing: 11
+gas station w/service: 87
+cannabis - dispensary: 71
+nez bldg: 15
+shed,barn,shelter: 17
+industrial flex: 11
+49: 1
+restaurant-fast food: 42
+ 22050848.015: 1
+ 04003989.;: 1
+ 100 ft wd and west end ave: 1
+covered loading dock: 7
+warehouse-distribution: 37
+60: 1
+ 22030044.015: 1
+69: 1
+ wcr 2/180; 1 thru 4 blk 1: 1
+parking lot-gravel: 216
+three family: 665
+residential - condo: 687
+industrial use-office building: 180
+theater: 17
+bowling center: 2
+florist: 5
+veterinary: 8
+skating rink: 9
+six family: 28
+hotel-limited service: 3
+other industrial structure: 54
+0.088: 1
+bar: 268
+20: 1
+27: 1
+carwash: 159
+shopping center: 142
+carriage house: 3
+ 06005620.: 6
+child care center: 29
+five family: 58
+parsonage: 7
+gas station no-service: 249
+other commercial structure: 702
+0.00693296412596987: 1
+18: 1
+apt-w/ elevator: 173
+power house,switch, or transformer building: 89
+income bungalow: 9697
+single family: 197912
+30: 3
+leased city owned property: 1
+bank mini (walk-up & drive-through): 8
+bank branch: 96
+four family: 1186
+duplex: 840
+industrial-cold storage: 15
+mortuary-funeral home: 56
+mixed use-retail: 96
+apt-walk up: 857
+spec act land only: 213
+243.27: 1
+fitness center,arena,gyms,health club: 18
+greenhouse: 10
+apt-hi-rise: 372
+nez land: 4445
+light manufacturing: 377
+scrap yard: 79
+industrial-engineering: 33
+61.63: 1
+truck terminal: 20
+row house: 736
+1050: 1
+religious structure/use: 1157
+store-retail: 4313
+mixed use-apt: 678
+health professional office: 402
+hotel-full service: 12
+warehouse: 587
+two family: 17948
+apt-flat slab type: 83

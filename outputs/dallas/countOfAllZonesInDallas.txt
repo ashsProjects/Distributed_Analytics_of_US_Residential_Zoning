@@ -1,0 +1,34 @@
+mfr - apartments                                  : 4647
+oil, gas and mineral reserves                     : 19
+aircraft                                          : 596
+commercial bpp                                    : 82806
+railroad corridor                                 : 536
+cable companies                                   : 265
+gas companies                                     : 10
+rural land and improvements non qualified         : 99
+sfr - vacant lots/tracts                          : 34332
+special inventory                                 : 2606
+industrial improvements                           : 807
+commercial improvements                           : 37148
+electric companies                                : 1059
+residential - improvements as inventory           : 52
+mobile home on owners land                        : 1464
+residential - vacant lots as inventory            : 1907
+industrial - vacant plotted lots/tracts           : 2111
+commercial - vacant plotted lots/tracts           : 25315
+qualified open space land                         : 2525
+minerals, non-producing                           : 51
+telephone companies                               : 6
+private water systems                             : 4
+unassigned                                        : 755
+mobile homes on leased spaces                     : 11563
+industrial bpp                                    : 2575
+rural vacant - less than 5 acres                  : 1149
+other minerals                                    : 1
+watercraft                                        : 1
+single family residences                          : 539515
+railroad rolling stock                            : 2
+pipelines                                         : 5
+sfr - townhouses                                  : 19592
+mfr - duplexes                                    : 16463
+sfr - condominiums                                : 44516

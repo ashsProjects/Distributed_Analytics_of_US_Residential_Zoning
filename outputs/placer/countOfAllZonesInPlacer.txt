@@ -1,0 +1,77 @@
+golf course: 187
+mini-markets, no gas: 11
+residence on commercial land: 461
+timberland, zoned tpz: 400
+apartments, 4 units or more: 1802
+residential, auxiliary imp: 853
+fast food restaurant: 108
+clca restriction, non-renewal: 10
+vacant industrial: 455
+timeshares: 43
+heavy industrial: 37
+schools: 334
+rivers, lakes, reservoir, canal: 139
+day care centers: 29
+cemeteries: 58
+parking lots: 268
+vacant, all types-not asgnd: 11159
+hotels, motels, resorts: 124
+office medical/dental: 204
+miscellaneous institutional: 9
+3 single fam res, triplex: 271
+commercial store: 469
+greenbelt: 269
+tennis, swimming clubs: 21
+suburban store: 528
+office general: 818
+hospitals community: 4
+null: 3098
+light industrial: 455
+miscellaneous comm'l: 147
+marina, pier: 180
+restaurants, cocktail lounges: 209
+industrial condo: 358
+common area: 3386
+misc. public buildings: 440
+ski facility: 144
+churches: 190
+mining claims: 30
+timberland, unrestricted: 181
+banks, s&l's, credit union: 60
+mobile home outside of park: 356
+theater, bowling alley: 11
+irrigated farm: 138
+lodges, halls: 46
+mini-storage, covered storage: 235
+conservation easement restrictions: 71
+vacant, commercial: 1149
+dry farm with residence: 56
+poultry & small animals: 2
+non-profit camps/parks: 27
+airport: 48
+wetlands, vernal pools: 65
+shopping center: 82
+service station: 28
+mining quarry: 42
+single fam res, half plex: 125824
+mobile home park: 72
+2 single fam res, duplex: 2744
+vacant, subdivided residential: 7510
+mobile home in m h park: 94
+camps & parks, general: 163
+hospitals convalescent: 56
+food processing: 2
+rice crop: 59
+highways, roads, streets: 757
+uncovered storage, wrecking yard: 9
+miscellaneous recreational: 95
+office condo: 452
+utilities, public & private: 829
+auto sales, repair: 248
+single fam res, condo: 7828
+vacant, dry farm: 493
+orchards, vineyards: 96
+warehouse: 225
+miscellaneous industrial: 51
+clca restriction, under contract: 395
+mini-market with gas: 94

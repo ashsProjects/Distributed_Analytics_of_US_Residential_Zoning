@@ -81,7 +81,6 @@ $ hadoop fs -ls /zoning/<place>/<dataset>
 CENSUS DATA
 - B08006 Sex of Workers by Means of Transportation to Work (Employment -> Commuting)
 - S0802 Means of Transportation to Work by Selected Characteristics (Employment -> Commuting)
-- B11011 Household Type by Units in Structure (Housing -> Housing, 3)
 - H1 OCCUPANCY STATUS (Housing, Housing, 1)
 - S1702 Poverty Status in the Past 12 Months of Families (Income and Poverty -> Income and Poverty)
 

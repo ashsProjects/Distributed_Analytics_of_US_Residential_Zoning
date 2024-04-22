@@ -1,0 +1,616 @@
+(adams,
+	crimeRate: 11/1000
+	unemployment:5.68%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$60,510.05"
+	mentalHealth:5.8)
+(allen,
+	crimeRate: 40/1000
+	unemployment:4.41%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$63,075.41"
+	mentalHealth:5.4)
+(ashland,
+	crimeRate: 14/1000
+	unemployment:4.00%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$61,668.48"
+	mentalHealth:5.6)
+(ashtabula,
+	crimeRate:  8/1000
+	unemployment:4.61%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$61,441.97"
+	mentalHealth:6.5)
+(athens,
+	crimeRate: 24/1000
+	unemployment:5.04%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$64,828.28"
+	mentalHealth:6.2)
+(auglaize,
+	crimeRate: 10/1000
+	unemployment:3.19%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$62,889.56"
+	mentalHealth:5.1)
+(belmont,
+	crimeRate: 11/1000
+	unemployment:5.43%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$63,776.80"
+	mentalHealth:5.3)
+(brown,
+	crimeRate: 13/1000
+	unemployment:4.72%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$63,128.45"
+	mentalHealth:5.8)
+(butler,
+	crimeRate: 33/1000
+	unemployment:3.68%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$72,168.12"
+	mentalHealth:5.2)
+(carroll,
+	crimeRate:  1/1000
+	unemployment:4.50%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$65,515.07"
+	mentalHealth:5.1)
+(champaign,
+	crimeRate: 23/1000
+	unemployment:3.88%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$64,507.02"
+	mentalHealth:5.4)
+(clark,
+	crimeRate: 43/1000
+	unemployment:4.27%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$64,205.54"
+	mentalHealth:5.4)
+(clermont,
+	crimeRate: 20/1000
+	unemployment:3.68%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$70,568.06"
+	mentalHealth:5.2)
+(clinton,
+	crimeRate: 19/1000
+	unemployment:4.58%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$60,860.96"
+	mentalHealth:5.6)
+(columbiana,
+	crimeRate:  6/1000
+	unemployment:4.84%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$60,828.24"
+	mentalHealth:5.7)
+(coshocton,
+	crimeRate: 16/1000
+	unemployment:5.13%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$62,488.78"
+	mentalHealth:5.6)
+(crawford,
+	crimeRate: 27/1000
+	unemployment:5.01%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$61,429.22"
+	mentalHealth:5.3)
+(cuyahoga,
+	crimeRate: 33/1000
+	unemployment:5.14%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$66,327.70"
+	mentalHealth:5.8)
+(darke,
+	crimeRate:  9/1000
+	unemployment:3.67%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$61,798.47"
+	mentalHealth:5.4)
+(defiance,
+	crimeRate: 14/1000
+	unemployment:4.11%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$62,097.74"
+	mentalHealth:5.3)
+(delaware,
+	crimeRate: 13/1000
+	unemployment:3.08%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$79,114.93"
+	mentalHealth:4.4)
+(erie,
+	crimeRate: 24/1000
+	unemployment:5.12%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$62,337.92"
+	mentalHealth:5.0)
+(fairfield,
+	crimeRate: 25/1000
+	unemployment:3.60%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$70,921.10"
+	mentalHealth:5.3)
+(fayette,
+	crimeRate: 42/1000
+	unemployment:4.01%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$61,034.28"
+	mentalHealth:5.8)
+(franklin,
+	crimeRate: 38/1000
+	unemployment:3.54%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$72,589.03"
+	mentalHealth:5.5)
+(fulton,
+	crimeRate: 14/1000
+	unemployment:4.19%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$66,995.37"
+	mentalHealth:5.1)
+(gallia,
+	crimeRate: 28/1000
+	unemployment:4.93%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$62,894.23"
+	mentalHealth:5.6)
+(geauga,
+	crimeRate:  7/1000
+	unemployment:4.20%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$70,131.83"
+	mentalHealth:5.1)
+(greene,
+	crimeRate: 24/1000
+	unemployment:3.72%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$70,887.45"
+	mentalHealth:5.1)
+(guernsey,
+	crimeRate: 14/1000
+	unemployment:5.17%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$62,836.07"
+	mentalHealth:5.3)
+(hamilton,
+	crimeRate: 39/1000
+	unemployment:3.73%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$68,470.83"
+	mentalHealth:5.6)
+(hancock,
+	crimeRate: 22/1000
+	unemployment:3.39%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$64,552.45"
+	mentalHealth:4.9)
+(hardin,
+	crimeRate: 22/1000
+	unemployment:4.41%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$61,890.48"
+	mentalHealth:5.4)
+(harrison,
+	crimeRate: 12/1000
+	unemployment:5.19%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$63,348.78"
+	mentalHealth:5.4)
+(henry,
+	crimeRate: 16/1000
+	unemployment:4.76%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$63,969.98"
+	mentalHealth:5.1)
+(highland,
+	crimeRate: 19/1000
+	unemployment:5.17%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$63,331.55"
+	mentalHealth:5.7)
+(hocking,
+	crimeRate: 23/1000
+	unemployment:4.27%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$66,788.32"
+	mentalHealth:5.7)
+(holmes,
+	crimeRate:  7/1000
+	unemployment:2.92%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$63,586.33"
+	mentalHealth:5.8)
+(huron,
+	crimeRate: 15/1000
+	unemployment:5.37%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$59,929.53"
+	mentalHealth:5.4)
+(jackson,
+	crimeRate: 20/1000
+	unemployment:5.23%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$64,535.82"
+	mentalHealth:5.9)
+(jefferson,
+	crimeRate: 22/1000
+	unemployment:5.76%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$64,496.92"
+	mentalHealth:6.0)
+(knox,
+	crimeRate: 21/1000
+	unemployment:3.62%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$64,375.54"
+	mentalHealth:5.4)
+(lake,
+	crimeRate: 16/1000
+	unemployment:4.49%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$70,593.90"
+	mentalHealth:5.2)
+(lawrence,
+	crimeRate: 19/1000
+	unemployment:4.86%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$66,520.46"
+	mentalHealth:5.7)
+(licking,
+	crimeRate: 15/1000
+	unemployment:3.53%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$70,377.56"
+	mentalHealth:5.4)
+(logan,
+	crimeRate: 20/1000
+	unemployment:3.60%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$63,160.08"
+	mentalHealth:5.5)
+(lorain,
+	crimeRate: 13/1000
+	unemployment:5.34%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$65,577.10"
+	mentalHealth:5.2)
+(lucas,
+	crimeRate: 43/1000
+	unemployment:4.63%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$65,064.56"
+	mentalHealth:5.9)
+(madison,
+	crimeRate: 21/1000
+	unemployment:3.32%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$71,056.22"
+	mentalHealth:5.2)
+(mahoning,
+	crimeRate: 29/1000
+	unemployment:5.04%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$63,494.00"
+	mentalHealth:5.5)
+(marion,
+	crimeRate: 41/1000
+	unemployment:4.60%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$65,908.04"
+	mentalHealth:6.1)
+(medina,
+	crimeRate:  9/1000
+	unemployment:4.18%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$70,998.27"
+	mentalHealth:5.3)
+(meigs,
+	crimeRate: 15/1000
+	unemployment:6.21%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$64,388.31"
+	mentalHealth:6.0)
+(mercer,
+	crimeRate:  5/1000
+	unemployment:2.77%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$61,036.31"
+	mentalHealth:5.0)
+(miami,
+	crimeRate: 21/1000
+	unemployment:3.69%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$67,763.10"
+	mentalHealth:5.1)
+(monroe,
+	crimeRate:  6/1000
+	unemployment:6.83%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$64,757.37"
+	mentalHealth:5.7)
+(montgomery,
+	crimeRate: 36/1000
+	unemployment:4.27%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$66,191.59"
+	mentalHealth:5.8)
+(morgan,
+	crimeRate: 17/1000
+	unemployment:5.62%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$63,421.61"
+	mentalHealth:5.7)
+(morrow,
+	crimeRate:  1/1000
+	unemployment:4.04%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$68,998.02"
+	mentalHealth:5.7)
+(muskingum,
+	crimeRate: 31/1000
+	unemployment:4.50%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$62,605.13"
+	mentalHealth:5.7)
+(noble,
+	crimeRate:  6/1000
+	unemployment:6.40%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$63,545.25"
+	mentalHealth:5.3)
+(ottawa,
+	crimeRate: 13/1000
+	unemployment:5.54%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$64,179.45"
+	mentalHealth:5.3)
+(paulding,
+	crimeRate:  9/1000
+	unemployment:3.63%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$63,565.73"
+	mentalHealth:5.2)
+(perry,
+	crimeRate: 12/1000
+	unemployment:4.60%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$64,535.79"
+	mentalHealth:5.5)
+(pickaway,
+	crimeRate: 26/1000
+	unemployment:3.84%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$68,157.17"
+	mentalHealth:5.4)
+(pike,
+	crimeRate: 17/1000
+	unemployment:5.35%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$62,829.56"
+	mentalHealth:5.6)
+(portage,
+	crimeRate: 16/1000
+	unemployment:4.00%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$68,259.73"
+	mentalHealth:5.1)
+(preble,
+	crimeRate:  9/1000
+	unemployment:3.48%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$63,553.62"
+	mentalHealth:5.2)
+(putnam,
+	crimeRate:  5/1000
+	unemployment:3.12%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$63,247.74"
+	mentalHealth:4.5)
+(richland,
+	crimeRate: 38/1000
+	unemployment:4.73%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$63,661.85"
+	mentalHealth:5.4)
+(ross,
+	crimeRate: 43/1000
+	unemployment:3.99%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$63,477.22"
+	mentalHealth:6.1)
+(sandusky,
+	crimeRate: 24/1000
+	unemployment:4.94%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$60,023.13"
+	mentalHealth:4.6)
+(scioto,
+	crimeRate: 34/1000
+	unemployment:5.34%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$62,906.15"
+	mentalHealth:5.7)
+(seneca,
+	crimeRate: 16/1000
+	unemployment:4.36%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$59,515.87"
+	mentalHealth:5.1)
+(shelby,
+	crimeRate: 26/1000
+	unemployment:3.64%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$62,191.61"
+	mentalHealth:5.4)
+(stark,
+	crimeRate: 27/1000
+	unemployment:4.20%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$63,226.09"
+	mentalHealth:4.9)
+(summit,
+	crimeRate: 31/1000
+	unemployment:4.28%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$66,742.07"
+	mentalHealth:5.6)
+(trumbull,
+	crimeRate: 21/1000
+	unemployment:5.19%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$62,237.62"
+	mentalHealth:5.5)
+(tuscarawas,
+	crimeRate: 10/1000
+	unemployment:3.97%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$65,881.52"
+	mentalHealth:5.4)
+(union,
+	crimeRate:  7/1000
+	unemployment:3.11%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$76,337.61"
+	mentalHealth:5.0)
+(van wert,
+	crimeRate: 21/1000
+	unemployment:3.46%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$61,668.49"
+	mentalHealth:5.4)
+(vinton,
+	crimeRate: 13/1000
+	unemployment:5.24%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$64,664.84"
+	mentalHealth:5.9)
+(warren,
+	crimeRate: 12/1000
+	unemployment:3.39%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$79,311.00"
+	mentalHealth:4.9)
+(washington,
+	crimeRate: 13/1000
+	unemployment:4.95%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$63,451.84"
+	mentalHealth:5.5)
+(wayne,
+	crimeRate: 15/1000
+	unemployment:3.27%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$65,616.88"
+	mentalHealth:5.3)
+(williams,
+	crimeRate: 12/1000
+	unemployment:3.53%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$62,048.51"
+	mentalHealth:5.1)
+(wood,
+	crimeRate: 14/1000
+	unemployment:3.64%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$68,044.08"
+	mentalHealth:5.6)
+(wyandot,
+	crimeRate:  9/1000
+	unemployment:2.98%
+	nationalParkCount:1
+	stateParkCoverage:0.11%
+	costOfLiving:"$60,891.77"
+	mentalHealth:5.3)

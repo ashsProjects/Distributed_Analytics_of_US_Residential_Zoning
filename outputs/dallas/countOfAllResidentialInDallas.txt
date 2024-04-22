@@ -1,0 +1,8 @@
+Count of all types of Residential in Dallas
+mobile home on owners land                        : 1464
+mobile homes on leased spaces                     : 11563
+single family residences                          : 539515
+sfr - townhouses                                  : 19592
+mfr - duplexes                                    : 16463
+sfr - condominiums                                : 44516
+Total: 633113

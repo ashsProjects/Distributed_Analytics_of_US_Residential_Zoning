@@ -1,0 +1,21 @@
+(denver,
+	crimeRate: 42/1000
+	unemployment:3.19%
+	nationalParkCount:4
+	stateParkCoverage:0.69%
+	costOfLiving:"$91,534.85"
+	mentalHealth:5.2)
+(jefferson,
+	crimeRate: 35/1000
+	unemployment:2.86%
+	nationalParkCount:4
+	stateParkCoverage:0.69%
+	costOfLiving:"$96,123.15"
+	mentalHealth:4.7)
+(weld,
+	crimeRate: 19/1000
+	unemployment:3.34%
+	nationalParkCount:4
+	stateParkCoverage:0.69%
+	costOfLiving:"$85,381.90"
+	mentalHealth:4.7)

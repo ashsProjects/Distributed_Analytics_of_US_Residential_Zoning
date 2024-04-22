@@ -1,0 +1,10 @@
+Count of all types of Residential in Placer
+3 single fam res, triplex: 271
+mobile home outside of park: 356
+apartments, 4 units or more: 1802
+single fam res, condo: 7828
+single fam res, half plex: 125824
+mobile home park: 72
+2 single fam res, duplex: 2744
+mobile home in m h park: 94
+Total: 138991

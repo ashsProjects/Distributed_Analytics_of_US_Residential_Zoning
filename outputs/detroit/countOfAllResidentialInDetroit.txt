@@ -1,0 +1,28 @@
+Count of all types of Residential in Detroit
+boat house: 1
+apt-flat garden type: 1754
+warehouse storage: 550
+half duplex: 1921
+hotel-apt: 5
+warehouse-distribution: 37
+six family: 28
+carriage house: 3
+five family: 58
+apt-w/ elevator: 173
+duplex: 840
+apt-walk up: 857
+mixed use-condo: 8
+public lodging house-rooming house: 16
+three family: 665
+residential - condo: 687
+power house,switch, or transformer building: 89
+single family: 197912
+four family: 1186
+greenhouse: 10
+apt-hi-rise: 372
+row house: 736
+mixed use-apt: 678
+warehouse: 587
+two family: 17948
+apt-flat slab type: 83
+Total: 227204

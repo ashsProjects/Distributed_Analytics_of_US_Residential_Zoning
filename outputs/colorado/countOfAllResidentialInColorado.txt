@@ -1,0 +1,89 @@
+Count of all types of Residential in Colorado
+fieldhouse: 1
+duplex: two family: 3746
+financl condo: 6
+rest. condo: 56
+"apt mid-rise>9 unt,1-9sty": 172
+"apt high-rise>9 unt,10+st": 19
+apt clubhouse: 2
+mini warehouse hi-rise: 3
+purged mh as condo: 19
+apartments (hi-rise): 1
+mega warehouse: 3
+fourplex: four family: 2
+medical condo: 48
+retail/condo: 106
+single family misc/liv: 5
+secondary single family res: 21
+nursing home: 52
+apt w/8 units: 72
+triplex: three family: 112
+hotel - condominiums: 15
+mini warehouse: 78
+group/boarding home-1 kit: 64
+retail condo: 249
+mobile home parks: 12
+group home/converted res.: 42
+apt w/5 units: 96
+apartment mid rise 4 - 6: 21
+"apt low-rise>9unt, walk-up": 961
+apt w/2 units: 3109
+warehouse c&r: 33
+nursery/greenhouse: 9
+single family residential on ag: 6788
+manufacturing warehouse: 40
+bath houses: 1
+"condo, res: attached": 9927
+apartment w/9 + units: 192
+home for the elderly: 6
+senior (clubhouse) centers: 2
+apartment triplex: 48
+condominium: 42216
+detached garage - condo: 435
+apt w/6 units: 171
+greenhouse large: 5
+apt w/7 units: 47
+apt w/4 units: 640
+apt w/3 units: 467
+secondary single family res on ag: 62
+poultry cage operation-screened houses: 9
+convlsnt hosp nursing home: 1
+group care homes: 9
+townhomes: 13968
+apartment low rise 1-3: 915
+townhouse: 2590
+apartment high rise 7+: 1
+office/condo: 373
+apartment unit w/comm: 76
+golf starter (guard house) booths: 2
+mini-warehouse: 56
+apartment: townhome style: 68
+triplex: 202
+condo - seperate unit: 65
+apartment duplex: 480
+apartment w/4-8 units - larger complex: 26
+storage warehouse: 66
+office/warehouse: 18
+apartment w/4-8 units: 581
+misc rowhouse imps: 1217
+mobile home - imp only: 241
+apartment/low income: 22
+pi warehouse: 2
+poultry house - cage: 1
+101 condo pkg: 1946
+10s condo storage: 185
+industrial/condo: 623
+single family: 236704
+senior citizen apartment: 36
+"apt misc, pkg, clubhouses": 105
+"condos, res: mid rise (4-9)": 6
+duplex: 1541
+misc mobile home park/imp: 9
+funeral homes: 13
+office condo: 601
+clubhouse: 51
+rowhouse: 22077
+manufactured home: 6814
+condominium unit: 3641
+single family residential: 91183
+warehouse: 5115
