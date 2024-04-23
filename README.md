@@ -124,12 +124,12 @@ $ gradle run
 ```
 ### Benchmarks
 <table>
-    <th>
+    <tr>
         <td>Dataset</td>
         <td>Size</td>
         <td>10 nodes</td>
         <td>2 nodes</td>
-    </th>
+    </tr>
     <tr>
         <td>Colorado</td>
         <td>257.5 MB</td>
