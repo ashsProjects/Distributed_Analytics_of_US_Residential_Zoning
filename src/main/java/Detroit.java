@@ -125,7 +125,7 @@ public class Detroit {
 
         String header = allQualities.first();
         JavaPairRDD<String, String> qualitiesByCounty = allQualities.filter(line -> !line.equals(header))
-            .filter(x -> x.startsWith("TXDallas ")).mapToPair(x -> {
+            .filter(x -> x.startsWith("MIWayne ")).mapToPair(x -> {
                 String[] desc = x.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)", -1);
                 String countyName = desc[0].substring(2).toLowerCase().replace(" county", "");
                 List<String> qualityList = new ArrayList<>();
@@ -153,14 +153,14 @@ public class Detroit {
     }
 
     public static void main(String[] args) throws IOException {
-        calculateZoning();
+        // calculateZoning();
 
         SparkConf sparkConf = new SparkConf().setMaster("local").setAppName("Detroit Analysis");
         JavaSparkContext sc = new JavaSparkContext(sparkConf);
 
-        calculateTransport(sc);
-        calculatePoverty(sc);
-        calculateOccupancy(sc);
+        // calculateTransport(sc);
+        // calculatePoverty(sc);
+        // calculateOccupancy(sc);
         calculateQOL(sc);
 
         sc.close();

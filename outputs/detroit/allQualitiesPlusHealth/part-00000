@@ -1,6 +1,6 @@
-(dallas,
-	crimeRate: 36/1000
-	unemployment:3.85%
-	nationalParkCount:2
-	stateParkCoverage:0.52%
-	costOfLiving:"$72,227.78")
+(wayne,
+	crimeRate: 42/1000
+	unemployment:4.86%
+	nationalParkCount:1
+	stateParkCoverage:0.92%
+	costOfLiving:"$70,843.33")

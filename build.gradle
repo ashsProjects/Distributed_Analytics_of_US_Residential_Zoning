@@ -14,12 +14,12 @@ dependencies {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'Colorado'
+        attributes 'Main-Class': 'Detroit'
     }
 }
 
 application {
-    mainClass = 'Colorado'
+    mainClass = 'Detroit'
 }
 
 run {

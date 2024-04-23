@@ -73,5 +73,3 @@ Count of all types of Residential in Ohio
 503: Res-Custom Code: 2678
 520: Res-Two Family: 111782
 557: Res-Custom Code: 382
-END-----------------
-

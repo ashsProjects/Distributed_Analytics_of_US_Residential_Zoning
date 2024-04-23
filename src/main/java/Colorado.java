@@ -188,10 +188,10 @@ public class Colorado {
         JavaSparkContext sc = new JavaSparkContext(sparkConf);
 
         calculateZoning(sc);
-        // calculateTransport(sc);
-        // calculatePoverty(sc);
-        // calculateOccupancy(sc);
-        // calculateQOL(sc);
+        calculateTransport(sc);
+        calculatePoverty(sc);
+        calculateOccupancy(sc);
+        calculateQOL(sc);
 
         sc.close();
         sc.stop();
