@@ -122,3 +122,48 @@ To run the Java program using Gradle:
 ```bash
 $ gradle run
 ```
+### Benchmarks
+<table>
+    <th>
+        <td>Dataset</td>
+        <td>Size</td>
+        <td>10 nodes</td>
+        <td>2 nodes</td>
+    </th>
+    <tr>
+        <td>Colorado</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Dallas</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Detroit</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Houston</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Ohio</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Placer</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
