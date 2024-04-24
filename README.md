@@ -133,31 +133,31 @@ $ gradle run
     <tr>
         <td>Colorado</td>
         <td>257.5 MB</td>
-        <td></td>
+        <td>2m 42s</td>
         <td>2m 25s</td>
     </tr>
     <tr>
         <td>Dallas</td>
         <td>383.3 MB</td>
-        <td></td>
+        <td>5s</td>
         <td>11s</td>
     </tr>
     <tr>
         <td>Detroit</td>
         <td>129.9 MB</td>
-        <td></td>
+        <td>3s</td>
         <td>8s</td>
     </tr>
     <tr>
         <td>Houston</td>
         <td>721.9 MB</td>
-        <td></td>
+        <td>25s</td>
         <td>20s</td>
     </tr>
     <tr>
         <td>Ohio</td>
         <td>1.5 GB</td>
-        <td></td>
+        <td>24s</td>
         <td>15s</td>
     </tr>
     <tr>
