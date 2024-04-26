@@ -42,12 +42,6 @@ public class Ohio {
             String line = entry.getKey() + ": " + entry.getValue() + "\n";
             writer.write(line);
         }
-        writer.write("END-----------------\n\n");
-        
-        residentialByCounty.mapToPair(x -> {
-            Long size = x._2.spliterator().getExactSizeIfKnown();
-            return new Tuple2<>(x._1, size);
-        }).sortByKey().coalesce(1).saveAsTextFile("./outputs/ohio/countOfAllResidentialByCounty");
         
         JavaPairRDD<String, ArrayList<Tuple2<String, Integer>>> countsByCounty = residentialByCounty.mapValues(x -> {
             Map<String, Integer> typeCounts = new HashMap<>();
@@ -72,6 +66,15 @@ public class Ohio {
             return new Tuple2<>(x._1, typeCountList);
         });
         relevantCountsByCounty.sortByKey().coalesce(1).saveAsTextFile("./outputs/ohio/relevantResidentialByCounty");
+
+        relevantCountsByCounty.mapToPair(x -> {
+            Integer runningCount = 0;
+            
+            for (Tuple2<String,Integer> i: x._2) {
+                runningCount += i._2;
+            }
+            return new Tuple2<>(x._1, runningCount);
+        }).sortByKey().coalesce(1).saveAsTextFile("./outputs/ohio/countOfAllResidentialByCounty");
 
         writer.close();
     }
