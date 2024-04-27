@@ -166,6 +166,35 @@ public class Placer {
             allQualitiesPlusHealth.sortByKey().saveAsTextFile("./outputs/placer/allQualitiesPlusHealth");
     }
 
+    public static void calculateHousingCharacteristics(JavaSparkContext sc) {
+        JavaRDD<String> raceFile = sc.textFile("hdfs://salem.cs.colostate.edu:31190/zoning/housing_race.csv");
+        JavaPairRDD<String, String> racesByCounty = raceFile.zipWithIndex()
+            .filter(pair -> (pair._2() == 3))
+            .map(pair -> pair._1()).mapToPair(x -> {
+                String[] desc = x.split(",");
+                String countyName = desc[1].toLowerCase().replace(" county", "");
+                StringBuilder sb = new StringBuilder();
+
+                sb.append("white:" + desc[59]);
+                sb.append("black:" + desc[61]);
+                sb.append("asian:" + desc[65]);
+                sb.append("hispanic:" + desc[73]);
+
+                return new Tuple2<>(countyName, sb.toString());
+            });
+            racesByCounty.sortByKey().saveAsTextFile("./outputs/placer/racesByCounty");
+
+        JavaRDD<String> financialFile = sc.textFile("hdfs://salem.cs.colostate.edu:31190/zoning/housing_financial.csv");
+        JavaPairRDD<String, String> financeByCounty = financialFile.zipWithIndex()
+            .filter(pair -> (pair._2() == 3))
+            .map(pair -> pair._1()).mapToPair(x -> {
+                String[] desc = x.split(",");
+                String countyName = desc[1].toLowerCase().replace(" county", "");
+                return new Tuple2<>(countyName, desc[27]);
+            });
+            financeByCounty.sortByKey().saveAsTextFile("./outputs/placer/financesByCounty");
+    }
+
     public static void main(String[] args) throws IOException {
         calculateZoning();
 
@@ -176,6 +205,7 @@ public class Placer {
         calculatePoverty(sc);
         calculateOccupancy(sc);
         calculateQOL(sc);
+        calculateHousingCharacteristics(sc);
 
         sc.close();
         sc.stop();
