@@ -1,18 +1,12 @@
-# CS455 Term Project
+# Analyzing the Impact of Single Family Zoning in the United States using Distributed Tools
 ### Ayush Adhikari, Brendan Verspohl
+#### Originally a part of CS455: Distributed Systems class at Colorado State University
+<hr>
 
-### Questions:
-1. What are the different types of zoning?
-2. How many parcels are identified as a residential type? This includes SF, Condos, MF, Apartments, etc.
-3. How many Single Family homes are there and what is the percentage of SF to the total number of residential zoning?
-4. What is the average commute time for the county?
-5. What means of transport are used the most commonly? Describe averages.
-6. What is the level of poverty in that county?
-7. What is the average rent prices for different residential buildings?
-8. What is the standard if living (income/wage/price of goods)?
-9. What is the crime rate of the county?
+This is a project that aims to do distributed analytics using clusters using a spatial dataset. Our goal with this project was to analyze the impact of single family rresidential zoning in the US and correlate it to quality of life measures in an effort to dissuade a segreggation of zoning types and promote inclusivity. We hoped to be able to compare the results against data from other countries that have more includive zoning laws, but this was not possible due to constraints on data availability and language barriers. For the distributed component, we are using a cluster of 10 machines that are managed by Yarn. To do the processing of data and calculations, we applied Spark using Java and Gradle. The data itself was stored using HDFS and totaled to ~3.2 GB. For more detail on our motivation, procedures, project structure, and results, please reference the latex file or the presentation. Use the former for a more detailed explanation and the latter for a summary.
 
 ### Data Directory Structure
+To access dataset using HDFS
 ```bash
 $ hadoop fs -ls /zoning/<place>/<dataset>
 ```
@@ -22,49 +16,33 @@ $ hadoop fs -ls /zoning/<place>/<dataset>
     |--Ohio  
         |--mental_health    
         |--occupancy  
-        |--occupancy_meta  
         |--ohio-parcels  
-        |--poverty  
-        |--poverty_meta   
-        |--transportation_means  
-        |--transportation_means_meta  
+        |--poverty    
+        |--transportation_means    
         |--transportation_type  
-        |--transportation_type_means  
     |--Houston    
         |--houston-parcels   
         |--mental_health   
-        |--occupancy   
-        |--occupancy_meta   
-        |--poverty   
-        |--poverty_meta     
+        |--occupancy    
+        |--poverty     
         |--transportation_means   
-        |--transportation_means_meta   
-        |--transportation_type   
-        |--transportation_type_means    
+        |--transportation_type       
     |--Colorado       
         |--denver-parcels   
         |--jefferson-parcels   
         |--mental_health    
-        |--occupancy    
-        |--occupancy_meta     
-        |--poverty   
-        |--poverty_meta      
-        |--transportation_means   
-        |--transportation_means_meta     
-        |--transportation_type   
-        |--transportation_type_means   
+        |--occupancy      
+        |--poverty         
+        |--transportation_means       
+        |--transportation_type    
         |--weld-parcels     
     |--Placer       
         |--mental_health   
-        |--occupancy    
-        |--occupancy_meta    
+        |--occupancy      
         |--placer-parcels    
-        |--poverty   
-        |--poverty_meta     
-        |--transportation_means   
-        |--transportation_means_meta   
-        |--transportation_type    
-        |--transportation_type_means  
+        |--poverty       
+        |--transportation_means     
+        |--transportation_type     
     |--Dallas
         |--dallas-parcels 
         |--mental_health   
@@ -82,10 +60,15 @@ $ hadoop fs -ls /zoning/<place>/<dataset>
         |--transportation_means   
         |--transportation_type      
     |--QOL
+    |--races.csv
+    |--financial.csv
 ```
 
 ### Data Sources
 ```
+Parcel Data
+- https://koordinates.com/explore/
+
 CENSUS DATA
 - B08006 Sex of Workers by Means of Transportation to Work (Employment -> Commuting)
 - S0802 Means of Transportation to Work by Selected Characteristics (Employment -> Commuting)
@@ -95,12 +78,17 @@ CENSUS DATA
 MENTAL HEALTH
 - https://www.countyhealthrankings.org/health-data/health-outcomes/quality-of-life
 
-HAS COUNTY LEVEL GRAPHS FOR QUALITY OF LIFE
-- https://www.miqols.org/toolbox/usqoli.html
-
 DATASET FOR COUNTY LEVEL QUALITY OF LIFE
 - https://www.kaggle.com/datasets/zacvaughan/cityzipcountyfips-quality-of-life
 ```
+
+### Dependencies
+- Java 11
+- Gradle 8.0
+- Apache Spark SQL 3.5
+- Apache Spark Core 3.5
+
+### Compiling
 
 To start DFS:
 ```bash 
@@ -122,48 +110,3 @@ To run the Java program using Gradle:
 ```bash
 $ gradle run
 ```
-### Benchmarks
-<table>
-    <tr>
-        <td>Dataset</td>
-        <td>Size</td>
-        <td>10 nodes</td>
-        <td>2 nodes</td>
-    </tr>
-    <tr>
-        <td>Colorado</td>
-        <td>257.5 MB</td>
-        <td>2m 42s</td>
-        <td>2m 25s</td>
-    </tr>
-    <tr>
-        <td>Dallas</td>
-        <td>383.3 MB</td>
-        <td>5s</td>
-        <td>11s</td>
-    </tr>
-    <tr>
-        <td>Detroit</td>
-        <td>129.9 MB</td>
-        <td>3s</td>
-        <td>8s</td>
-    </tr>
-    <tr>
-        <td>Houston</td>
-        <td>721.9 MB</td>
-        <td>25s</td>
-        <td>20s</td>
-    </tr>
-    <tr>
-        <td>Ohio</td>
-        <td>1.5 GB</td>
-        <td>24s</td>
-        <td>15s</td>
-    </tr>
-    <tr>
-        <td>Placer</td>
-        <td>187.4 MB</td>
-        <td>10s</td>
-        <td>8s</td>
-    </tr>
-</table>
